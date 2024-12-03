@@ -1,6 +1,6 @@
 /* CSS for top div  */
 .top-div{
-  background-color: #006a6e;
+  background-color: #008080;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
 
 }
 .row_for_top_head{
-  justify-content: space-between;
+  justify-content:space-evenly ;
 }
 .top-icon{
   display: table;  
@@ -27,6 +27,7 @@
 }
 .top-header-content span{
   color:yellow;
+  font-weight: 100%;
 }
 
 /* CSS for Nav Bar */
@@ -235,6 +236,7 @@ nav{
 
 .card-2{
   background: black;
+  
 }
 .card-2-text{
   color: white;
@@ -261,6 +263,7 @@ nav{
 .back-img{
   height: 800px;
   width: 1519px;
+  opacity: 70%;
 }
 .feature-item{
   color: #008080;
@@ -277,14 +280,36 @@ nav{
   padding-right: 5%;
   display: table;
 }
-.btn read-more{
+.btn {
   background-color: #008080;
-}
-
-.mt-4{
-  color: #008080;
 }
 
 .mt-4,p{
   color: #000000;
+}
+
+.bg-teal {
+  background-color: #008080;
+ text-align: start;
+}
+.fa-solid {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.first-line{
+  font-weight: bold;
+}
+
+.about{
+  color: #008080;
+  padding-right: 50%;
+  padding-left: 50%;
+ 
+}
+
+.text-d{
+  background-color: #008080;
+  color: white;
+  padding-left: 5%;
 }
