@@ -1,0 +1,290 @@
+/* CSS for top div  */
+.top-div{
+  background-color: #006a6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  
+
+}
+.row_for_top_head{
+  justify-content: space-between;
+}
+.top-icon{
+  display: table;  
+  align-items: center;
+  justify-content: flex-end;
+}
+.top-icon i{
+  padding-right:10%;
+  color:#000000;
+}
+.top-header-content{
+  font-size:18px ;
+  font-weight: 400;
+}
+.top-header-content span{
+  color:yellow;
+}
+
+/* CSS for Nav Bar */
+nav{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo-for-nav img{
+  height: 100px;
+  padding-left: 0%;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding: 5px;
+  margin: 5px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: black;
+}
+.button-for-nav{
+  background-color: #006a6e;
+  padding: 10px;
+  color:w;
+}
+
+/* for below text */
+.back-img{
+  height: 500px;
+  filter: brightness(75%);
+}
+.first_btn{
+  background-color:#006a6e !important;
+  color: white !important;
+  border-radius: 5% !important;
+}
+.sec_btn{
+  background-color: white !important;
+  color: black !important;
+  border-radius: 0% !important;
+}
+.feature-item{
+  padding-top: 25px;
+}
+.feature-item i{
+  padding-bottom: 20px;
+}
+
+.container-box{
+  padding: 80px;
+  color: white;
+}
+
+/* service card */
+.service-card{
+  border: 1px solid;
+}
+.view_button{
+  background-color:red;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* CARD CODE */
+.for-card {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.service-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.service-card i {
+  font-size: 40px;
+  color: #008080;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.service-card .view-more {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #008080;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.service-card .view-more:hover {
+  background-color: #008080;
+}
+
+
+
+.view-all-button {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #008080;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.view-all-button:hover {
+  background-color: #008080;
+}
+
+/* Testominal */
+.testimonial-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.testimonial-rating {
+  color: #ffcc00;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-avatar {
+  background-color: #008080;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.testimonial-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.view-all-btn {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #008080;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-all-btn:hover {
+  background-color: #008080;
+}
+
+.card-2{
+  background: black;
+}
+.card-2-text{
+  color: white;
+}
+
+.bg-teal {
+  background-color: #d2e6e6a2;
+}
+.text-white {
+  color: #fff;
+}
+
+.middle-part, img{
+ opacity: 1;
+ 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+.back-img{
+  height: 800px;
+  width: 1519px;
+}
+.feature-item{
+  color: #008080;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+.section-header{
+ color: #008080;
+ text-align: left;
+}
+.between-header{
+  color: #000000;
+  text-align: left;
+  padding-right: 5%;
+  display: table;
+}
+.btn read-more{
+  background-color: #008080;
+}
+
+.mt-4{
+  color: #008080;
+}
+
+.mt-4,p{
+  color: #000000;
+}
