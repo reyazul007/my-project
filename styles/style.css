@@ -33,11 +33,13 @@ nav{
   display: flex !important;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 1px 20px;
 }
 .logo-for-nav img{
-  height: 100px;
-  padding-left: 0%;
+  height: 200px;
+
+
+  
 }
 .nav-links{
   display: flex;
@@ -50,27 +52,20 @@ nav{
   text-decoration: none;
   color: black;
 }
-.button-for-nav{
-  background-color: #006a6e;
-  padding: 10px;
-  color:w;
-}
+
 
 /* for below text */
 .back-img{
   height: 500px;
-  filter: brightness(75%);
+  filter: brightness(50%);
+  
 }
 .first_btn{
   background-color:#006a6e !important;
   color: white !important;
   border-radius: 5% !important;
 }
-.sec_btn{
-  background-color: white !important;
-  color: black !important;
-  border-radius: 0% !important;
-}
+
 .feature-item{
   padding-top: 25px;
 }
@@ -430,3 +425,47 @@ margin-bottom: 10px;
 .contact-item i {
   margin-right: 10px; /* Space between the icon and the text */
 }
+
+.read-more,exe{
+  color: #008080;
+  padding-left: 60%;
+  font-weight: bold;
+}
+.more-btn{
+  padding-right: 80%;
+ 
+}
+
+.section-title{
+  color: #008080;
+}
+.Testi{
+  color: #008080;
+}
+
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #008080;
+
+}
+
+.form-label {
+  color: white;
+  padding-right: 75%; /* Change this color to your desired color for header */
+}
+
+.btn-primary {
+  background-color: #008080; /* Change this color to match the header color */
+  border-color: #008080; /* Ensure the border color matches as well */
+}
+
+.btn-primary:hover {
+  background-color: #008080; /* Darker shade for hover effect */
+  border-color: #008080;
+}
+
+
