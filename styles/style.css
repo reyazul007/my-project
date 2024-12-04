@@ -297,16 +297,12 @@ nav{
   font-size: x-large;
 }
 
-.first-line{
+.first-line,h1{
+  font-size: 2rem; /* Adjust the size as needed */ 
   font-weight: bold;
+  
 }
 
-.about{
-  color: #008080;
-  padding-right: 50%;
-  padding-left: 50%;
- 
-}
 
 .text-d{
   background-color: #008080;
@@ -314,5 +310,101 @@ nav{
   padding-left: 5%;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+    color: #008080;
 
+}
 
+.about > div {
+  display: flex;
+  align-items: center;
+}
+
+.about i {
+  margin-right: 10px;
+}
+
+.feature-1{
+  color: #008080;
+  font-weight: bold;
+}
+/* General Styles */
+.container {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+/* Grid Styles */
+.grid-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-content .col-md-4 {
+  margin-bottom: 1rem;
+}
+
+.text-d h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.text-d{
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.btn-light {
+  margin-top: 1rem;
+  width: 45%;
+  
+}
+
+/* Image Box Styles */
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto;
+  max-width: 250px; /* Make all images the same size */
+  border-radius: 8px; /* Add border-radius to beautify images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a polished look */
+}
+
+.text-white{
+  text-align: left;
+}
+.quick{
+  text-align: left;
+  color: #008080;
+}
+.list-unstyled{
+  text-align: left;
+}
+.abt{
+  text-align: left;
+  color: #008080;
+}
+.about{
+  text-align: left;
+  color: #000000;
+}
+.loc{
+  text-align: left;
+  color: #008080;
+}
+.get{
+  text-align: left;
+  color: #008080;
+}
